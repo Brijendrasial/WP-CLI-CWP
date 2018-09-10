@@ -106,15 +106,6 @@ echo -e $GREEN""$RESET
 printf '%50s\n' | tr ' ' -
 
 
-echo "Your Wordpress Domain Name: $wpdomain"
-echo "Your Admin Email: $wpemail"
-echo "Wordpress Admin Username: $wpuser"
-echo "Wordpress Admin Password: $wppass"
-echo "Wordpress Database Name: $wpdbname"
-echo "Wordpress Database User: $wpdbuser"
-echo "Wordpress Database Password: $wpdbpass"
-echo "Wordpress Database Prefix: wp_$wpdbprefix"
-
 cat > /root/$wpdomain.txt <<EOF
 Your Wordpress Domain Name: $wpdomain
 Your Admin Email: $wpemail
@@ -125,6 +116,8 @@ Wordpress Database User: $wpdbuser
 Wordpress Database Password: $wpdbpass
 Wordpress Database Prefix: wp_$wpdbprefix
 EOF
+
+cat /root/$wpdomain.txt
 
 echo "Your Wordpress Details are saved at: /root/$wpdomain.txt"
 
@@ -183,14 +176,6 @@ echo -e $GREEN""$RESET
 
 printf '%50s\n' | tr ' ' -
 
-echo "Your Wordpress Domain Name: $wpdomain"
-echo "Your Admin Email: $wpemail"
-echo "Wordpress Admin Username: $wpuser"
-echo "Wordpress Admin Password: $wppass"
-echo "Wordpress Database Name: $wpdbname"
-echo "Wordpress Database User: $wpdbuser"
-echo "Wordpress Database Password: $wpdbpass"
-echo "Wordpress Database Prefix: wp_$wpdbprefix"
 
 cat > /root/$wpdomain.txt <<EOF
 Your Wordpress Domain Name: $wpdomain
@@ -202,6 +187,8 @@ Wordpress Database User: $wpdbuser
 Wordpress Database Password: $wpdbpass
 Wordpress Database Prefix: wp_$wpdbprefix
 EOF
+
+cat /root/$wpdomain.txt
 
 echo "Your Wordpress Details are saved at: /root/$wpdomain.txt"
 
