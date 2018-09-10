@@ -85,7 +85,7 @@ echo -e $GREEN""$RESET
 
 wp core download --path=/home/$cwpuser/public_html --allow-root
 wp core config --path=/home/$cwpuser/public_html --dbname=$wpdbname --dbuser=$wpdbuser --dbpass=$wpdbpass --dbhost=localhost --dbprefix=wp$wpdbprefix_ --allow-root
-wp core install --path=/home/$cwpuser/public_html --url="$wpdomain" --title="Blog Title Wordpress" --admin_user="$wpuser" --admin_password="$wppass" --admin_email="$wpemail" --allow-root
+wp core install --path=/home/$cwpuser/public_html --url="$wpdomain" --title="New Wordpress Blog" --admin_user="$wpuser" --admin_password="$wppass" --admin_email="$wpemail" --allow-root
 
 echo -e $GREEN""$RESET
 echo -e $GREEN"Wordpress Setup Completed$RESET" 
