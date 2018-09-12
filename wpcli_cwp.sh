@@ -2,7 +2,7 @@
 
 # Wordpress Auto Installer using WP-CLI for CentOS Web Panel [CWP]
 
-# Scripted by Bullten Web Hosting Solutions [http://www.bullten.com]
+# Scripted by Bullten Web Hosting Solutions [https://www.bullten.com]
 
 set -e
 
